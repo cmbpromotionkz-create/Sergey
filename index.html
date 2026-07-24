@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ТОО "Арт-Концепт КЗ" - Официальный сайт</title>
+    <style>
+        /* Сброс стилей */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: linear-gradient(135deg, #2c3e50, #34495e);
+            color: white;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+
+        .logo {
+            margin: 20px auto;
+            max-width: 200px;
+        }
+
+        .logo img {
+            width: 100%;
+            height: auto;
+        }
+
+        section {
+            padding: 40px 0;
+        }
+
+        section:nth-child(even) {
+            background-color: #e9ecef;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2c3e50;
+            font-size: 2rem;
+        }
+
+        .table-responsive {
+            overflow-x: auto;
+            margin: 20px 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #2c3e50;
+            color: white;
+            font-weight: 600;
+        }
+
+        tr:hover {
+            background-color: rgba(44, 62, 80, 0.1);
+        }
+
+        .contact-info, .useful-links {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        .contact-item {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .contact-item h3 {
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .contact-item p {
+            margin: 5px 0;
+        }
+
+        .links-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 15px;
+        }
+
+        .link-item {
+            background: white;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .link-item:hover {
+            transform: translateY(-3px);
+        }
+
+        .link-item a {
+            text-decoration: none;
+            color: #2c3e50;
+            font-weight: 500;
+        }
+
+        .note {
+            background-color: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            .contact-grid, .links-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ТОО "Арт-Концепт КЗ"</h1>
+            <p>Товарищество с ограниченной ответственностью</p>
+            <div class="logo">
+                <!-- Замените на ваш логотип -->
+                <svg viewBox="0 0 200 80" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="200" height="80" fill="#3498db" rx="10"/>
+                    <text x="100" y="45" text-anchor="middle" fill="white" font-family="Arial" font-size="16">Арт-Концепт</text>
+                    <text x="100" y="65" text-anchor="middle" fill="white" font-family="Arial" font-size="12">KZ</text>
+                </svg>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="info">
+            <div class="container">
+                <h2>Основная информация</h2>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Параметр</th>
+                            <th>Значение</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Организационно-правовая форма</strong></td>
+                            <td>Товарищество с ограниченной ответственностью (ТОО)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Наименование</strong></td>
+                            <td>"Арт-Концепт КЗ"</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Адрес</strong></td>
+                            <td>Республика Казахстан, 010000, г. Астана, район Алматы, проспект Абылайхана, дом 5/3, кв 112</td>
+                        </tr>
+                        <tr>
+                            <td><strong>БИН</strong></td>
+                            <td>230440010901</td>
+                        </tr>
+                        <tr>
+                            <td><strong>БИН банка</strong></td>
+                            <td>090740019001 (АО "Банк Фридом Финанс Казахстан")</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Текущий счёт (KZT)</strong></td>
+                            <td>KZ58551Z127030008KZT</td>
+                        </tr>
+                        <tr>
+                            <td><strong>БИК банка</strong></td>
+                            <td>KSNVKZKA</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <section id="leadership">
+            <div class="container">
+                <h2>Руководство</h2>
+                <div class="table-responsive">
+                    <table>
+                        <tr>
+                            <th>Должность</th>
+                            <th>ФИО</th>
+                            <th>Основание полномочий</th>
+                        </tr>
+                        <tr>
+                            <td><strong>Директор</strong></td>
+                            <td>Кузьмич Сергей Владимирович</td>
+                            <td>Устав</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        
+        <section id="contacts">
+            <div class="container">
+                <h2>Контактная информация</h2>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <h3>📞 Телефон</h3>
+                        <p>+7 (747) 184-09-45</p>
+                    </div>
+                    <div class="contact-item">
+                        <h3>🌐 Сайт</h3>
+                        <p><a href="https://www.art-concept.kz" target="_blank" rel="noopener">www.art-concept.kz</a></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+       
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2026 ТОО "Арт-Концепт КЗ". Все права защищены.</p>
+        </div>
+    </footer>
+</body>
+</html>
